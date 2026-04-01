@@ -1,0 +1,3 @@
+/home/lomedaq/Документы/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+/home/lomedaq/Документы/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+/home/lomedaq/Документы/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/lomedaq/Документы/c++projects/Minecraft  in C++/build/CMakeFiles/minecraft.dir
+/home/lomedaq/Документы/c++projects/Minecraft  in C++/build/CMakeFiles/edit_cache.dir
+/home/lomedaq/Документы/c++projects/Minecraft  in C++/build/CMakeFiles/rebuild_cache.dir

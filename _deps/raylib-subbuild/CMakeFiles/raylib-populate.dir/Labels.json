@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule"
+		},
+		{
+			"file" : "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

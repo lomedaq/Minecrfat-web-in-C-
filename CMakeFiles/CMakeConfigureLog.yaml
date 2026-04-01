@@ -1,0 +1,884 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/uname"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/uname"
+      - "/home/lomedaq/.local/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake:366 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "NODE_JS_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nodejs"
+      - "node"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/nodejs"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/nodejs"
+      - "/home/lomedaq/.local/bin/nodejs"
+      - "/usr/local/bin/nodejs"
+      - "/usr/bin/nodejs"
+      - "/var/lib/snapd/snap/bin/nodejs"
+      - "/usr/local/sbin/nodejs"
+      - "/var/lib/flatpak/exports/bin/nodejs"
+      - "/usr/lib/jvm/default/bin/nodejs"
+      - "/usr/bin/site_perl/nodejs"
+      - "/usr/bin/vendor_perl/nodejs"
+      - "/usr/bin/core_perl/nodejs"
+      - "/bin/nodejs"
+      - "/sbin/nodejs"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/node"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/node"
+      - "/home/lomedaq/.local/bin/node"
+      - "/usr/local/bin/node"
+    found: "/usr/bin/node"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Linux - 6.12.64-1-MANJARO - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/gmake"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/gmake"
+      - "/home/lomedaq/.local/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/var/lib/snapd/snap/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/usr/lib/jvm/default/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/bin/gmake"
+      - "/sbin/gmake"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/make"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/make"
+      - "/home/lomedaq/.local/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-strip"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-strip"
+      - "/home/lomedaq/.local/bin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+    found: "/usr/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/ld.lld"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/ld.lld"
+      - "/home/lomedaq/.local/bin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+      - "/usr/bin/ld.lld"
+      - "/var/lib/snapd/snap/bin/ld.lld"
+      - "/usr/local/sbin/ld.lld"
+      - "/var/lib/flatpak/exports/bin/ld.lld"
+      - "/usr/lib/jvm/default/bin/ld.lld"
+      - "/usr/bin/site_perl/ld.lld"
+      - "/usr/bin/vendor_perl/ld.lld"
+      - "/usr/bin/core_perl/ld.lld"
+      - "/bin/ld.lld"
+      - "/sbin/ld.lld"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/ld"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/ld"
+      - "/home/lomedaq/.local/bin/ld"
+      - "/usr/local/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-objdump"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-objdump"
+      - "/home/lomedaq/.local/bin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+    found: "/usr/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-objcopy"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-objcopy"
+      - "/home/lomedaq/.local/bin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+    found: "/usr/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-readelf"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-readelf"
+      - "/home/lomedaq/.local/bin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+    found: "/usr/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-dlltool"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-dlltool"
+      - "/home/lomedaq/.local/bin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+    found: "/usr/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/llvm-addr2line"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/llvm-addr2line"
+      - "/home/lomedaq/.local/bin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+    found: "/usr/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/tapi"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/tapi"
+      - "/home/lomedaq/.local/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/var/lib/snapd/snap/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/bin/tapi"
+      - "/sbin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-23.0"
+      - "clang-scan-deps-23"
+      - "clang-scan-deps23"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/"
+      - "/home/lomedaq/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/clang-scan-deps-23.0"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/clang-scan-deps-23.0"
+      - "/home/lomedaq/.local/bin/clang-scan-deps-23.0"
+      - "/usr/local/bin/clang-scan-deps-23.0"
+      - "/usr/bin/clang-scan-deps-23.0"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps-23.0"
+      - "/usr/local/sbin/clang-scan-deps-23.0"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-23.0"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-23.0"
+      - "/usr/bin/site_perl/clang-scan-deps-23.0"
+      - "/usr/bin/vendor_perl/clang-scan-deps-23.0"
+      - "/usr/bin/core_perl/clang-scan-deps-23.0"
+      - "/bin/clang-scan-deps-23.0"
+      - "/sbin/clang-scan-deps-23.0"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/clang-scan-deps-23"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/clang-scan-deps-23"
+      - "/home/lomedaq/.local/bin/clang-scan-deps-23"
+      - "/usr/local/bin/clang-scan-deps-23"
+      - "/usr/bin/clang-scan-deps-23"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps-23"
+      - "/usr/local/sbin/clang-scan-deps-23"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-23"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-23"
+      - "/usr/bin/site_perl/clang-scan-deps-23"
+      - "/usr/bin/vendor_perl/clang-scan-deps-23"
+      - "/usr/bin/core_perl/clang-scan-deps-23"
+      - "/bin/clang-scan-deps-23"
+      - "/sbin/clang-scan-deps-23"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/clang-scan-deps23"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/clang-scan-deps23"
+      - "/home/lomedaq/.local/bin/clang-scan-deps23"
+      - "/usr/local/bin/clang-scan-deps23"
+      - "/usr/bin/clang-scan-deps23"
+      - "/var/lib/snapd/snap/bin/clang-scan-deps23"
+      - "/usr/local/sbin/clang-scan-deps23"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps23"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps23"
+      - "/usr/bin/site_perl/clang-scan-deps23"
+      - "/usr/bin/vendor_perl/clang-scan-deps23"
+      - "/usr/bin/core_perl/clang-scan-deps23"
+      - "/bin/clang-scan-deps23"
+      - "/sbin/clang-scan-deps23"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/clang-scan-deps"
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/clang-scan-deps"
+      - "/home/lomedaq/.local/bin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+    found: "/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Platform/Emscripten.cmake:6 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "_EMSCRIPTEN_PLATFORM_MODULE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Platform/Emscripten.cmake"
+    candidate_directories:
+      - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cmake/Modules/"
+    found: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk"
+        - "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten"
+        - "/home/lomedaq/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/snapd/snap/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/"
+        - "/"
+      CMAKE_FIND_ROOT_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot;/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/cache/sysroot"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "_deps/raylib-src/CMakeLists.txt:29 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7"
+      binary: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lomedaq/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/c++projects/Minecraft_Cpp/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lomedaq/Документы/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_21c61/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_21c61.dir/build.make CMakeFiles/cmTC_21c61.dir/build
+        make[1]: Entering directory '/home/lomedaq/Документы/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7'
+        Building C object CMakeFiles/cmTC_21c61.dir/src.c.o
+        /home/lomedaq/Документы/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_21c61.dir/src.c.o -MF CMakeFiles/cmTC_21c61.dir/src.c.o.d -o CMakeFiles/cmTC_21c61.dir/src.c.o -c /home/lomedaq/Документы/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7/src.c
+        Linking C executable cmTC_21c61.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c61.dir/link.txt --verbose=1
+        /home/lomedaq/Документы/c++projects/Minecraft_Cpp/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_21c61.dir/objects1.rsp -o cmTC_21c61.js
+        make[1]: Leaving directory '/home/lomedaq/Документы/c++projects/Minecraft_Cpp/CMakeFiles/CMakeScratch/TryCompile-tBFEo7'
+        
+      exitCode: 0
+...
